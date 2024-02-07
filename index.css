@@ -1,0 +1,60 @@
+.navbar,.nav-link, #eventos, #fale-conosco,.nav-link.text-colored.active,.section-title{
+    font-family:'Protest Revolution', sans-serif;
+    font-weight: 200;
+}
+
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.navbar, #eventos, #fale-conosco,.nav-link.text-colored.active{
+    background-color: pink;
+    
+}
+
+.nav-link.text-colored, .text-colored,label.form-label.text-colored,h3.text-colored.section-title{
+    color: rgb(192, 114, 127);
+}
+
+.eve,.form-label.text-colored, .text-colored.section-title, button.btn,.nav-link,i.text-colored{
+    color: white;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+#cabecalho .nav .nav-link.active, .navbar-toggler, button.btn{
+    background-color:rgb(192, 114, 127) ;
+}
+
+li{
+    list-style: none;
+}
+
+.cardapio-size{
+    height: 800px;
+}
+
+.slides{
+    max-height: 1000px;
+}
+
+@media (max-width:767px){
+    #eventos{
+        height: 1700px;
+        
+    }
+
+    .slides img{
+        max-height: 500px;
+    }
+
+    .cardapio-size{
+        height: 1000px;
+    }
+
+    .image-size{
+        font-size: 50px;
+    }
+}
